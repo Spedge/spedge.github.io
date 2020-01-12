@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Ramblings of Spedge</title>
+    <link>http://spedge.com/posts/</link>
+    <description>Recent content in Posts on Ramblings of Spedge</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 12 Jan 2020 20:15:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://spedge.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Hello, world.</title>
+      <link>http://spedge.com/posts/firstpost/</link>
+      <pubDate>Sun, 12 Jan 2020 20:15:00 +0000</pubDate>
+      
+      <guid>http://spedge.com/posts/firstpost/</guid>
+      <description>Every year, the idea comes round to write more. To consider things and actually commit them to&amp;hellip;paper? Or some such.
+Anyway, this is my first post in my new blog - hosted by GitHub Pages, powered by Hugo and inspired by a theme which I&#39;ve adopted, changed and will continue to change as I learn this colouring-in malarky.</description>
+    </item>
+    
+  </channel>
+</rss>
