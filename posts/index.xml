@@ -6,10 +6,20 @@
     <description>Recent content in Posts on Ramblings of Spedge</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 12 Jan 2020 20:15:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 19 Jan 2020 20:27:24 +0000</lastBuildDate>
     
 	<atom:link href="http://spedge.com/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Clinical Meetings</title>
+      <link>http://spedge.com/posts/clinical-meetings/</link>
+      <pubDate>Sun, 19 Jan 2020 20:27:24 +0000</pubDate>
+      
+      <guid>http://spedge.com/posts/clinical-meetings/</guid>
+      <description>As I&#39;ve transitioned into being a Senior Manager, I feel like I&#39;ve had to quickly adapt and learn all sorts of new skills and techniques around the meta of squad management - the management of managers who manage squads.
+One of the things that really used to irritate me as a squad lead were redundant meetings. You know them, you&#39;ve all sat through them - the meetings where you know almost everyone is doing something else and questions asked to the room are met by an aggressive level of silence and apathy.</description>
+    </item>
     
     <item>
       <title>Hello, world.</title>
