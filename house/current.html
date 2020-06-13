@@ -43,25 +43,26 @@
 </head>
 
 <body>
-<div>
-  <!-- Copy the following canvas and components in your page, changing their size / texts and other values if needed  -->
-  <canvas id="viewerCanvas" class="viewerComponent" width="1600" height="1600"
-          style="background-color: #CCCCCC; border: 1px solid gray; outline:none" tabIndex="1"></canvas>
-  <div id="viewerProgressDiv" style="width: 400px; position: relative; top: -350px; left: 200px; background-color: rgba(128, 128, 128, 0.7); padding: 20px; border-radius: 25px">
-    <progress id="viewerProgress"  class="viewerComponent" value="0" max="200" style="width: 400px"></progress>
-    <label id="viewerProgressLabel" class="viewerComponent" style="margin-top: 2px; display: block; margin-left: 10px"></label>
+  <div>  
+
+    <!-- Copy the following canvas and components in your page, changing their size / texts and other values if needed  -->
+    <canvas id="viewerCanvas" class="viewerComponent" width="1600" height="1200"
+            style="background-color: #CCCCCC; border: 1px solid gray; outline:none" tabIndex="1"></canvas>
+    <div id="viewerProgressDiv" style="width: 400px; position: relative; top: -350px; left: 200px; background-color: rgba(128, 128, 128, 0.7); padding: 20px; border-radius: 25px">
+      <progress id="viewerProgress"  class="viewerComponent" value="0" max="200" style="width: 400px"></progress>
+      <label id="viewerProgressLabel" class="viewerComponent" style="margin-top: 2px; display: block; margin-left: 10px"></label>
+    </div>
+    <div style="margin-top: -60px">
+      <input  id="aerialView"   class="viewerComponent" name="cameraType" type="radio" style="visibility: hidden;"/>
+        <label class="viewerComponent" for="aerialView" style="visibility: hidden;">Aerial view</label>
+      <input  id="virtualVisit" class="viewerComponent" name="cameraType" type="radio" style="visibility: hidden;"/>
+        <label class="viewerComponent" for="virtualVisit" style="visibility: hidden;">Virtual visit</label>
+      <select id="levelsAndCameras" class="viewerComponent" style="visibility: hidden;"></select>
+    </div>
   </div>
-  <div style="margin-top: -60px">
-    <input  id="aerialView"   class="viewerComponent" name="cameraType" type="radio" style="visibility: hidden;"/>
-      <label class="viewerComponent" for="aerialView" style="visibility: hidden;">Aerial view</label>
-    <input  id="virtualVisit" class="viewerComponent" name="cameraType" type="radio" style="visibility: hidden;"/>
-      <label class="viewerComponent" for="virtualVisit" style="visibility: hidden;">Virtual visit</label>
-    <select id="levelsAndCameras" class="viewerComponent" style="visibility: hidden;"></select>
+  <div style="position: absolute; bottom: 5px; text-align: center; width: 95%; z-index: -1">
+    <a href="http://www.sweethome3d.com">Sweet Home 3D</a> HTML5 Viewer / Version 1.5 - Distributed under GNU General Public License
   </div>
-</div>
-<div style="position: absolute; bottom: 5px; text-align: center; width: 95%; z-index: -1">
-  <a href="http://www.sweethome3d.com">Sweet Home 3D</a> HTML5 Viewer / Version 1.5 - Distributed under GNU General Public License
-</div>
 
 <!-- Copy the following script to view your home in the previous canvas -->
 <script type="text/javascript">
